@@ -37,6 +37,7 @@ const DonationDetailsCard = ({donation}) => {
           <img src={image} alt="image" className="h-full w-full object-cover" />
         </div>
         <div className="p-6">
+          <p className=" font-bold">Price:{price}</p>
           <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
             {category_name}
           </h6>

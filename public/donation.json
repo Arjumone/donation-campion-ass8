@@ -82,7 +82,7 @@
       "title": "Fitness Essentials Bundle",
       "category_name": "Health",
       "description": "Get in shape with our fitness equipment bundle.",
-      "price": 19.99,
+      "price": 69.99,
       "card_bg_color": "#cfe2f3",          
       "category_bg_color": "#8db7dc",      
       "text_and_button_bg_color": "#3498db" 
@@ -104,7 +104,7 @@
       "title": "Programming Basics",
       "category_name": "Education",
       "description": "Start your journey into the world of programming.",
-      "price": 29.99,
+      "price": 89.99,
       "card_bg_color": "#f4cccc",          
       "category_bg_color": "#ea9999",    
       "text_and_button_bg_color": "#cc0000" 
@@ -115,7 +115,7 @@
       "title": "Casual Summer Dress",
       "category_name": "Clothing",
       "description": "Stay cool and stylish in this summer dress.",
-      "price": 39.99,
+      "price": 59.99,
       "card_bg_color": "#d9ead3",          
       "category_bg_color": "#b6d7a8",    
       "text_and_button_bg_color": "#2ecc71" 
@@ -126,7 +126,7 @@
       "title": "International Cuisine Cookbook",
       "category_name": "Food",
       "description": "Embark on a culinary journey with recipes from around the world.",
-      "price": 34.99,
+      "price": 35.99,
       "card_bg_color": "#e3c29f",
       "category_bg_color": "#f6b26b",
       "text_and_button_bg_color": "#b45f06"

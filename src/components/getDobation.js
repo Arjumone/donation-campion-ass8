@@ -1,22 +1,22 @@
 
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 
-const getDonation = () => {
+// const getDonation = () => {
 
-    const [donations,setDonations] = useState()
+//     const [donations,setDonations] = useState()
 
-    useEffect(()=>{
+//     useEffect(()=>{
 
-        fetch('/donation.json')
-        .then(res=>res.json())
-        .then(data => setDonations(data))
+//         fetch('/donation.json')
+//         .then(res=>res.json())
+//         .then(data => setDonations(data))
 
-    },[])
+//     },[])
     
 
-    return [donations]
+//     return [donations]
 
-};
+// };
 
-export default getDonation;
+// export default getDonation;
