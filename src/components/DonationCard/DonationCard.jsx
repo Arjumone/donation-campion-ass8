@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import DonationDetails from "../DonationDetails/DonationDetails";
 
 const DonationCard = ({ donation }) => {
-  const {id, image,title,category_name,description,price} = donation;
+  const {id, image,title,category_name,description,price,category_bg_color,card_bg_color,text_and_button_bg_color} = donation;
   return (
     <div>
-      <Link to={`/donation/${id}`}>
+      <Link to={`/donation/${id}`} >
       <div className="card card-compact bg-base-100 shadow-xl ">
         <figure>
           <img
@@ -13,9 +13,9 @@ const DonationCard = ({ donation }) => {
             alt="title-donation"
           />
         </figure>
-        <div  className={category_name === 'Health'? 'bg-blue-200 text-blue-700': category_name=== 'Education'?'bg-pink-200 text-pink-700': category_name==='Clothing'?'bg-green-200 text-green-700': category_name==='Food'?'bg-red-200 text-red-700':''}>
-          <div className=" ps-2">
-          <h2 className={category_name==='Health'? 'bg-blue-300 mt-2  w-fit rounded p-1 ':category_name==='Education'? 'bg-pink-300 mt-2  w-fit rounded p-1 ':category_name==='Clothing'? 'bg-green-300 mt-2  w-fit rounded p-1 ':category_name==='Food'? 'bg-red-300 mt-2  w-fit rounded p-1 ':''}>{category_name}</h2>
+        <div style={{backgroundColor:card_bg_color}}>
+          <div style={{color:text_and_button_bg_color, padding:'10px'}}>
+          <h2 style={{backgroundColor:category_bg_color,width:'70px', borderRadios:'20px',padding:'3px'}}>{category_name}</h2>
           <p className=" font-medium">{title}</p>
           <p className=" py-2 ">{description}</p>
           </div>
