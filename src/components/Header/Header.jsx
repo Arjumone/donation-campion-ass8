@@ -16,23 +16,22 @@ const Header = () => {
   }
   return (
     <div className="">
-      <nav className="nav flex flex-col lg:flex-row justify-between max-w-6xl mx-auto my-4 shadow-md px-6 py-6  rounded h-screen relative">
+      <nav className="nav flex flex-col md:flex-row justify-between max-w-6xl mx-auto my-4 shadow-md px-6 py-6  rounded h-screen relative">
         <div className=" h-20 w-full">
           <img src="/src/assets/Logo.png" alt="" />
         </div>
-        <ul className=" flex gap-4 text-xl text-white">
+        <ul className=" flex gap-4 text-xl text-black">
           <li><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-red-400 underline" : ""}>Home</NavLink></li>
           <li><NavLink to="/donation" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-red-400 underline" : ""}>Donation</NavLink></li>
           <li><NavLink to="/statistic" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-red-400 underline" : ""}>Statistic</NavLink></li>
         </ul>
       </nav>
-      <div className=" absolute lg:-mt-64 lg:ml-96  lg:-gap-2">
-        <h1 className=" text-white font-semibold text-3xl mb-5">I Grow By Helping People In Need</h1>
+      <div className=" absolute -mt-64 lg:-mt-64 ml-10 lg:ml-96  -gap-2">
+        <h1 className=" text-black font-semibold text-3xl mb-5">I Grow By Helping People In Need</h1>
       <div className=" flex">
-      <input type="text" placeholder="Search here" className="input input-bordered input-secondary w-full max-w-xs" />
-     <span onClick={handleSort}>
-     <button className=" bg-red-600 text-white p-3 rounded-lg">Search</button>
-     </span>
+      <input type="text" placeholder="Sort by Name" className="input input-bordered input-secondary w-full max-w-xs" />
+     <button onClick={handleSort}  className=" bg-red-600 text-white p-3 rounded-lg">Search</button>
+
       </div>
       </div>
     </div>

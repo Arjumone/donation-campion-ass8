@@ -1,7 +1,7 @@
 [
   {
       "id": "1",
-      "image": "/src/assets/Health.png",
+      "image": "https://i.ibb.co/0JHLFR5/Rectangle-4284.png",
       "title": "Healthy Lifestyle Guide",
       "category_name": "Health",
       "description": "Discover the secrets to a healthier you. Health is important.",
@@ -12,7 +12,7 @@
   },
   {
       "id": "2",
-      "image": "/src/assets/Education.png",
+      "image": "https://i.ibb.co/g4pDpbd/Rectangle-4284-1.png",
       "title": "Mathematics 101",
       "category_name": "Education",
       "description": "Learn the fundamentals of mathematics. It's learn to hard",
@@ -23,7 +23,7 @@
   },
   {
       "id": "3",
-      "image": "/src/assets/Clothing.png",
+      "image": "https://i.ibb.co/grcXkFS/Rectangle-4284-2.png",
       "title": "Stylish Denim Jacket",
       "category_name": "Clothing",
       "description": "Upgrade your wardrobe with this trendy denim jacket.",
@@ -34,7 +34,7 @@
   },
   {
       "id": "4",
-      "image": "/src/assets/Food.png",
+      "image": "https://i.ibb.co/4PBx7Ks/Rectangle-4284-3.png",
       "title": "Gourmet Cooking Masterclass",
       "category_name": "Food",
       "description": "Become a culinary expert with our cooking course.",
@@ -45,7 +45,7 @@
   },
   {
       "id": "5",
-      "image": "/src/assets/Food.png",
+      "image": "https://i.ibb.co/4PBx7Ks/Rectangle-4284-3.png",
       "title": "Delicious Pasta Recipes",
       "category_name": "Food",
       "description": "Cook mouthwatering pasta dishes with our recipes.",
@@ -56,7 +56,7 @@
   },
   {
       "id": "6",
-      "image": "/src/assets/Clothing.png",
+      "image": "https://i.ibb.co/grcXkFS/Rectangle-4284-2.png",
       "title": "Designer Leather Bag",
       "category_name": "Clothing",
       "description": "Elevate your style with this luxurious leather bag.",
@@ -67,7 +67,7 @@
   },
   {
       "id": "7",
-      "image": "/src/assets/Education.png",
+      "image": "https://i.ibb.co/g4pDpbd/Rectangle-4284-1.png",
       "title": "History of Art",
       "category_name": "Education",
       "description": "Explore the rich history of art throughout the ages.",
@@ -78,7 +78,7 @@
   },
   {
       "id": "8",
-      "image": "/src/assets/Health.png",
+      "image": "https://i.ibb.co/0JHLFR5/Rectangle-4284.png",
       "title": "Fitness Essentials Bundle",
       "category_name": "Health",
       "description": "Get in shape with our fitness equipment bundle.",
@@ -89,7 +89,7 @@
   },
   {
       "id": "9",
-      "image": "/src/assets/Health.png",
+      "image": "https://i.ibb.co/0JHLFR5/Rectangle-4284.png",
       "title": "Yoga and Meditation Guide",
       "category_name": "Health",
       "description": "Find inner peace and balance through yoga and meditation.",
@@ -100,7 +100,7 @@
   },
   {
       "id": "10",
-      "image": "/src/assets/Education.png",
+      "image": "https://i.ibb.co/g4pDpbd/Rectangle-4284-1.png",
       "title": "Programming Basics",
       "category_name": "Education",
       "description": "Start your journey into the world of programming.",
@@ -111,7 +111,7 @@
   },
   {
       "id": "11",
-      "image": "/src/assets/Clothing.png",
+      "image": "https://i.ibb.co/grcXkFS/Rectangle-4284-2.png",
       "title": "Casual Summer Dress",
       "category_name": "Clothing",
       "description": "Stay cool and stylish in this summer dress.",
@@ -122,7 +122,7 @@
   },
   {
       "id": "12",
-      "image": "/src/assets/Food.png",
+      "image": "https://i.ibb.co/4PBx7Ks/Rectangle-4284-3.png",
       "title": "International Cuisine Cookbook",
       "category_name": "Food",
       "description": "Embark on a culinary journey with recipes from around the world.",

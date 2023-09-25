@@ -4,15 +4,15 @@ import DonationDetailsCard from "../DonationDetailsCard/DonationDetailsCard";
 
 
 const DonationDetails = () => {
-    const [donation,setDonation]= useState([]);
-    // console.log(donation);
     const {id} = useParams()
     // console.log(id);
     const donations = useLoaderData();
     // console.log(donations);
+    const [donation,setDonation]= useState([]);
+    // console.log(donation);
     useEffect(()=>{
-        const findDonation = donations?.find(donation=>donation.id===id)
-        console.log(findDonation);
+        const findDonation = donations?.find(donation=>donation.id === id)
+        // console.log(findDonation);
         setDonation(findDonation);
     },[id,donations])
     

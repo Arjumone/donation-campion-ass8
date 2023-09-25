@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import DonationDetails from "../DonationDetails/DonationDetails";
-
+import PropTypes from 'prop-types';
 const DonationCard = ({ donation }) => {
-  const {id, image,title,category_name,description,price,category_bg_color,card_bg_color,text_and_button_bg_color} = donation;
+  const {id, image,title,category_name,description,category_bg_color,card_bg_color,text_and_button_bg_color} = donation;
   return (
     <div>
       
@@ -26,6 +25,8 @@ const DonationCard = ({ donation }) => {
     </div>
   );
 };
-
+DonationCard.propTypes = {
+  donation: PropTypes.object.isRequired
+};
 export default DonationCard;
 {/* <div className={isPrimary ? "primary" : "secondary"}></div> */}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import DonateCard from "../DonateCard/DonateCard";
 
 const Donation = () => {
@@ -19,44 +19,25 @@ const Donation = () => {
         0
       );
 
-      console.log(total);
-
       setTotalPrice(total);
     } else {
       setNoFound("No Data Found");
     }
   }, []);
 
-  console.log(donations);
-
-  const handleRemove = () => {
-    localStorage.clear();
-    setDonations([]);
-    setNoFound("No Data Found");
-  };
-
-  console.log(isShow);
-
   return (
     <div>
       {noFound ? (
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
-        <div>
+        <div className="">
           {donations.length > 0 && (
-            <div>
-              <button
-                onClick={handleRemove}
-                className="px-5 bg-green-200 block mx-auto"
-              >
-                Deleted All Donation
-              </button>
-
+            <div className=" max-w-6xl mx-auto">
               <h1>Total price : {totalPrice}</h1>
             </div>
           )}
 
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
             {isShow
               ? donations.map((donation) => (
                   <DonateCard key={donation.id} donation={donation}></DonateCard>
@@ -64,14 +45,14 @@ const Donation = () => {
               : donations
                   .slice(0, 2)
                   .map((donation) => (
-                    <DonateCard key={donation.id} phone={donation}></DonateCard>
+                    <DonateCard key={donation.id} donation={donation}></DonateCard>
                   ))}
           </div>
 
-          {donations.length > 2 && (
+          {donations.length > 4 && (
             <button
               onClick={() => setIsShow(!isShow)}
-              className="px-5 bg-green-200 block mx-auto"
+              className="px-5 my-5 bg-red-600 rounded-lg py-2 text-white block mx-auto"
             >
               {isShow ? "See less" : "See more"}
             </button>
