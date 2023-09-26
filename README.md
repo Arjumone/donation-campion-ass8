@@ -2,3 +2,4 @@
 - * using tailwind css for responsive
 - * useEffect and useState hooks
 - * various components for project build
+- * calculation in PieChart

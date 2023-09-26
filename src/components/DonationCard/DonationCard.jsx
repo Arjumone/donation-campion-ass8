@@ -15,7 +15,7 @@ const DonationCard = ({ donation }) => {
         </figure>
         <div>
           <div style={{color:text_and_button_bg_color, padding:'10px'}}>
-          <h2 style={{backgroundColor:category_bg_color,width:'70px', borderRadios:'20px',padding:'3px'}}>{category_name}</h2>
+          <h2 style={{backgroundColor:category_bg_color,width:'80px', borderRadios:'20px',padding:'3px'}} className=" rounded">{category_name}</h2>
           <p className=" font-medium">{title}</p>
           <p className=" py-2 ">{description}</p>
           </div>

@@ -34,18 +34,20 @@ const DonationDetailsCard = ({donation}) => {
     <div className=" flex justify-center items-center my-5 ">
       <div className="  w-full max-w-[48rem]  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative  transition-opacity ">
-          <img src={image} alt="image" className="w-full" />
+          <img src={image} alt="image" className="w-full lg:w-[700px]" />
         </div>
-        <a className="inline-block absolute ml-2 -mt-14 " href="#">
+        <div className=" absolute  -mt-14 bg-black w-full lg:w-[700px] opacity-50">
+        <a className="inline-block " href="#">
             <button style={{backgroundColor:text_and_button_bg_color,color:'white'}}
               onClick={handleAddToDonation}
-              className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-lg font-bold  text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+              className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-lg font-bold  text-white transition-all  active:bg-pink-500/30 disabled:pointer-events-none"
               type="button"
             >
               Donation ${price}
               
             </button>
           </a>
+        </div>
         <div className="p-6">
           <h6 className="mb-2 block font-sans  leading-relaxed tracking-normal font-bold text-2xl antialiased">
             {title}
