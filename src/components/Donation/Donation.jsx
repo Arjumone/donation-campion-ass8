@@ -6,20 +6,11 @@ const Donation = () => {
   const [noFound, setNoFound] = useState(false);
   const [isShow, setIsShow] = useState(false);
 
-  const [totalPrice, setTotalPrice] = useState(0);
-
   useEffect(() => {
     const donationItems = JSON.parse(localStorage.getItem("donation"));
 
     if (donationItems) {
       setDonations(donationItems);
-
-      const total = donationItems.reduce(
-        (preValue, currentItem) => preValue + currentItem.price,
-        0
-      );
-
-      setTotalPrice(total);
     } else {
       setNoFound("No Data Found");
     }
@@ -31,11 +22,7 @@ const Donation = () => {
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
         <div className="">
-          {donations.length > 0 && (
-            <div className=" max-w-6xl mx-auto">
-              <h1>Total price : {totalPrice}</h1>
-            </div>
-          )}
+          {donations.length > 0 && ''}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
             {isShow
@@ -43,7 +30,7 @@ const Donation = () => {
                   <DonateCard key={donation.id} donation={donation}></DonateCard>
                 ))
               : donations
-                  .slice(0, 2)
+                  .slice(0, 4)
                   .map((donation) => (
                     <DonateCard key={donation.id} donation={donation}></DonateCard>
                   ))}

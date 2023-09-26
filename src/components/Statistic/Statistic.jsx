@@ -1,15 +1,20 @@
+
+import { useLoaderData } from "react-router-dom";
+import PieChart from "../PieChart/PieChart";
 import { useEffect, useState } from "react";
 
-
 const Statistic = () => {
-    const [total,setTotal]=useState(0)
-    useEffect(()=>{
-        const donationItems = JSON.parse(localStorage.getItem("donation"));
-        console.log(donationItems);
-    },[])
+    const donations = useLoaderData();
+    const donationItems = JSON.parse(localStorage.getItem("donation"));
+    const [categoryData, setCategoryData] = useState([]);
+
+    useEffect(() => {
+        
+    }, []);
+
     return (
         <div>
-            <h1>statistic</h1>
+            <PieChart></PieChart>
         </div>
     );
 };

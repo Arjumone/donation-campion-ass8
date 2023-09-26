@@ -5,7 +5,7 @@
       "title": "Healthy Lifestyle Guide",
       "category_name": "Health",
       "description": "Discover the secrets to a healthier you. Health is important.",
-      "price": 19.99,
+      "price": 190,
       "card_bg_color": "#cfe2f3",         
       "category_bg_color": "#8db7dc",  
       "text_and_button_bg_color": "#246dae" 
@@ -16,7 +16,7 @@
       "title": "Mathematics 101",
       "category_name": "Education",
       "description": "Learn the fundamentals of mathematics. It's learn to hard",
-      "price": 29.99,
+      "price": 290,
       "card_bg_color": "#f4cccc",          
       "category_bg_color": "#ea9999",      
       "text_and_button_bg_color": "#cc0000"
@@ -27,7 +27,7 @@
       "title": "Stylish Denim Jacket",
       "category_name": "Clothing",
       "description": "Upgrade your wardrobe with this trendy denim jacket.",
-      "price": 49.99,
+      "price": 490,
       "card_bg_color": "#d9ead3",          
       "category_bg_color": "#b6d7a8",     
       "text_and_button_bg_color": "#2ecc71"
@@ -38,7 +38,7 @@
       "title": "Gourmet Cooking Masterclass",
       "category_name": "Food",
       "description": "Become a culinary expert with our cooking course.",
-      "price": 39.99,
+      "price": 390,
       "card_bg_color": "#e3c29f",          
       "category_bg_color": "#f6b26b",      
       "text_and_button_bg_color": "#b45f06" 
@@ -49,7 +49,7 @@
       "title": "Delicious Pasta Recipes",
       "category_name": "Food",
       "description": "Cook mouthwatering pasta dishes with our recipes.",
-      "price": 99.99,
+      "price": 990,
       "card_bg_color": "#e3c29f",
       "category_bg_color": "#f6b26b",     
       "text_and_button_bg_color": "#b45f06"
@@ -60,7 +60,7 @@
       "title": "Designer Leather Bag",
       "category_name": "Clothing",
       "description": "Elevate your style with this luxurious leather bag.",
-      "price": 24.99,
+      "price": 240,
       "card_bg_color": "#d9ead3",          
       "category_bg_color": "#b6d7a8",     
       "text_and_button_bg_color": "#2ecc71"
@@ -71,7 +71,7 @@
       "title": "History of Art",
       "category_name": "Education",
       "description": "Explore the rich history of art throughout the ages.",
-      "price": 79.9,
+      "price": 790,
       "card_bg_color": "#f4cccc",         
       "category_bg_color": "#ea9999",      
       "text_and_button_bg_color": "#cc0000" 
@@ -82,7 +82,7 @@
       "title": "Fitness Essentials Bundle",
       "category_name": "Health",
       "description": "Get in shape with our fitness equipment bundle.",
-      "price": 69.99,
+      "price": 650,
       "card_bg_color": "#cfe2f3",          
       "category_bg_color": "#8db7dc",      
       "text_and_button_bg_color": "#3498db" 
@@ -93,7 +93,7 @@
       "title": "Yoga and Meditation Guide",
       "category_name": "Health",
       "description": "Find inner peace and balance through yoga and meditation.",
-      "price": 14.99,
+      "price": 140,
       "card_bg_color": "#cfe2f3",          
       "category_bg_color": "#8db7dc",      
       "text_and_button_bg_color": "#246dae" 
@@ -104,7 +104,7 @@
       "title": "Programming Basics",
       "category_name": "Education",
       "description": "Start your journey into the world of programming.",
-      "price": 89.99,
+      "price": 895,
       "card_bg_color": "#f4cccc",          
       "category_bg_color": "#ea9999",    
       "text_and_button_bg_color": "#cc0000" 
@@ -115,7 +115,7 @@
       "title": "Casual Summer Dress",
       "category_name": "Clothing",
       "description": "Stay cool and stylish in this summer dress.",
-      "price": 59.99,
+      "price": 595,
       "card_bg_color": "#d9ead3",          
       "category_bg_color": "#b6d7a8",    
       "text_and_button_bg_color": "#2ecc71" 
@@ -126,7 +126,7 @@
       "title": "International Cuisine Cookbook",
       "category_name": "Food",
       "description": "Embark on a culinary journey with recipes from around the world.",
-      "price": 35.99,
+      "price": 350,
       "card_bg_color": "#e3c29f",
       "category_bg_color": "#f6b26b",
       "text_and_button_bg_color": "#b45f06"

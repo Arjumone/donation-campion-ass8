@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className="">
       <nav className="nav flex flex-col md:flex-row justify-between max-w-6xl mx-auto my-4 shadow-md px-6 py-6  rounded h-screen relative">
-        <div className=" h-20 w-full">
+        <div className="  w-full">
           <img src="/src/assets/Logo.png" alt="" />
         </div>
         <ul className=" flex gap-4 text-xl text-black">

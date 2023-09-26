@@ -30,6 +30,7 @@ const router = createBrowserRouter([
       {
         path: "/statistic",
         element: <Statistic></Statistic>,
+        loader:()=>fetch('/donation.json')
       },
       {
         path:'/donation/:id',
