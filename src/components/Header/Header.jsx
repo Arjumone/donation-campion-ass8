@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import './Header.css'
+import logo from "../../assets/Logo.png"
 import { useEffect, useState } from "react";
 const Header = () => {
   const[categoryName,setCategoryName]=useState([])
@@ -17,7 +18,7 @@ return (
     <div className="">
       <nav className="nav flex flex-col md:flex-row justify-between max-w-6xl mx-auto my-4 shadow-md px-6 py-6  rounded h-screen relative">
         <div className="  w-full">
-          <img src="/src/assets/Logo.png" alt="" />
+          <img src={logo} alt="" />
         </div>
         <ul className=" flex gap-4 text-xl text-black">
           <li><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-red-400 underline" : ""}>Home</NavLink></li>
