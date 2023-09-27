@@ -13,9 +13,7 @@ const Header = () => {
     categoryName.filter(category=>category)
     
 };
-
-
-  return (
+return (
     <div className="">
       <nav className="nav flex flex-col md:flex-row justify-between max-w-6xl mx-auto my-4 shadow-md px-6 py-6  rounded h-screen relative">
         <div className="  w-full">

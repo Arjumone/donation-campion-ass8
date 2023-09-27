@@ -12,7 +12,7 @@ const DonationDetailsCard = ({donation}) => {
 
     const donationItems = JSON.parse(localStorage.getItem("donation"));
 
-    // jokon localStorage e kicui takbena tkn if e dokbe
+    
     if (!donationItems) {
       addedDonationArray.push(donation);
       localStorage.setItem("donation", JSON.stringify(addedDonationArray));
@@ -32,11 +32,11 @@ const DonationDetailsCard = ({donation}) => {
 
   return (
     <div className=" flex justify-center items-center my-5 ">
-      <div className="  w-full max-w-[48rem]  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-        <div className="relative  transition-opacity ">
-          <img src={image} alt="image" className="w-full lg:w-[700px]" />
+      <div className=" max-w-[48rem]  rounded-xl   text-gray-700 shadow-md">
+        <div className="relative  transition-opacity">
+          <img src={image} alt="image" className=" lg:w-[700px]" />
         </div>
-        <div className=" absolute  -mt-14 bg-black w-full lg:w-[700px] opacity-50">
+        <div className=" absolute  -mt-14 bg-black w-full lg:w-[700px] opacity-70">
         <a className="inline-block " href="#">
             <button style={{backgroundColor:text_and_button_bg_color,color:'white'}}
               onClick={handleAddToDonation}

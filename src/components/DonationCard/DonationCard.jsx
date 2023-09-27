@@ -29,4 +29,3 @@ DonationCard.propTypes = {
   donation: PropTypes.object.isRequired
 };
 export default DonationCard;
-{/* <div className={isPrimary ? "primary" : "secondary"}></div> */}

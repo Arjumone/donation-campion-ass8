@@ -22,12 +22,15 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 const PieChart = () => {
 
     const donationItems = JSON.parse(localStorage.getItem("donation"));
-    const yourDonates = donationItems.length;
     
-const data = [
-    { name: 'Total Donation', value: (12 - yourDonates) },
-    { name: 'your Donation', value: yourDonates },
-  ];
+    const yourDonates = donationItems.length;
+    const data = [
+      { name: 'Total Donation', value: (12 - yourDonates) },
+      { name: 'your Donation', value: yourDonates },
+    ];
+    if(!donationItems){
+      donationItems(yourDonates)
+    }
 
 
     return (
